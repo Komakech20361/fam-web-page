@@ -1,0 +1,170 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 10;
+    padding: 5;
+}
+
+header {
+    background-color: #70b2de;
+    color: #161515;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5;
+}
+
+nav ul li {
+    display: left;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+#about {
+    background-color: #fff;
+    padding: 40px;
+}
+
+#about h2 {
+    font-size: 24px;
+}
+
+#about p {
+    font-size: 16px;
+}
+
+.h3 {
+    font-size: 20px;
+}
+</style>
+/* CSS for styling the gallery and image container */
+.image-container {
+    text-align: center; /* Center align the image and text */
+}
+
+.image-container img {
+    max-width: 300%;
+    max-height: 400px; /* Adjust the height as needed */
+    border: 5px solid #56f874;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.image-name {
+    margin-top: 10px; /* Spacing between image and text */
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+.image-container img {
+    max-width: 300%;
+    max-height: 400px; /* Adjust the height as needed */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact img {
+    max-width: 50%;
+    height: auto;
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: column; /* Make icons stack vertically */
+    align-items: center; /* Center icons horizontally */
+    gap: 10px; /* Add space between icons */
+}
+
+.social-media-icons a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-info {
+    margin-top: 20px; /* Add space between icons and contact info */
+}
+
+/* Style your social media icons as needed */
+.social-media-icons img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Additional styling for the contact info */
+.contact-info p {
+    font-size: 16px;
+}
